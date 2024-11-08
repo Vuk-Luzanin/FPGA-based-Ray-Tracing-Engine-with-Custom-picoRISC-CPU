@@ -1,0 +1,10 @@
+lbranch: br (if notUslov then lprekid);
+mxPC1, ldPC, br lprekid;
+
+lcall: mxMAR2, mxMAR0, ldMAR, mxMDR2, ldMDR;
+wrCPU, incSP, mxPC1, ldPC, br lprekid;
+
+lret: decSP;
+mxMAR2, mxMAR0, ldMAR;
+rdCPU;
+ldPC;

@@ -1,0 +1,16 @@
+mxAA1, ldAA, ldBB;
+ldekodovanje: br (if branch then lbranch);
+br (case (regdir, imm, memdir, regind, regindpom) then (lizvrsavanje, limm, lmemdir, lregind, lregindpom));
+
+limm: mxBB1, ldBB, br lizvrsavanje;
+
+lmemdir: mxMAR1, ldMAR, br (if store then lizvrsavanje);
+br loperands;
+
+lregind: mxMAR0, ldMAR br (if store then lizvrsavanje);
+br loperands;
+
+lregindpom: mxADDA0, mxADDB0, mxMAR2, ldMAR, br (if store then lizvrsavanje);
+
+loperands: rdCPU;
+mxBB0, ldBB;

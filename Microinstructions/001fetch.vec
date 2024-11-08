@@ -1,0 +1,8 @@
+lpocetak: br (if notSTART then lpocetak);
+ldMAR, incPC;
+rdCPU;
+ldIR0;
+br (if l1 then ldekodovanje);
+ldMAR, incPC;
+rdCPU;
+ldIR1;

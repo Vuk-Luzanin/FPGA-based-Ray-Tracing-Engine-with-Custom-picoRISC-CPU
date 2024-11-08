@@ -1,0 +1,7 @@
+lprekid: br (if notPrekid then lpocetak);
+mxMAR2, mxMAR0, ldMAR, mxMDR2, ldMDR;
+incSP, wrCPU;
+ldBR;
+mxMAR2, ldMAR;
+rdCPU;
+ldPC, br lpocetak;

@@ -1,0 +1,29 @@
+lizvrsavanje: br (case (intd, inte, load, store, add, sub, realmul, realclamp, intreal, inc, dec, Aand, Aor, Axor, Aasr, Aasl, call, ret) then (lintd, linte, lload, lstore, ladd, lsub, lrealmul, lrealclamp, lintreal, linc, ldec, land, lor, lxor, lasr, lasl, lcall, lret));
+
+lintd: clPSWI, br lprekid;
+linte: stPSWI, br lprekid;
+
+lload: wrGPR, mxAA0, ldAA, br lprekid;
+
+lstore: mxMDR0, ldMDR;
+wrCPU, br lprekid;
+
+ladd: ldAA, wrGPR, mxGPR, br lprekid;
+lsub: ALUop0, ldAA, wrGPR, mxGPR, br lprekid;
+lrealmul: ALUop0, ALUop1, ldAA, wrGPR, mxGPR, br lprekid;
+lrealclamp: ALUop2, ldAA, wrGPR, mxGPR, br lprekid;
+lintreal: ALUop2, ALUop0, ldAA, wrGPR, mxGPR, br lprekid;
+
+linc: ldBB, mxBB0, mxBB1;
+ldAA, br lprekid;
+ldec: ldBB, mxBB0, mxBB1;
+ALUop0, ldAA, wrGPR, mxGPR, br lprekid;
+
+lasr: shr;
+wrGPR, mxGPR, br lprekid;
+lasl: shL;
+wrGPR, mxGPR, br lprekid;
+
+land: ALUop3, ldAA, wrGPR, mxGPR, br lprekid;
+lor: ALUop3, ALUop0, ldAA, wrGPR, mxGPR, br lprekid;
+lxor: ALUop3, ALUop1, ldAA, wrGPR, mxGPR, br lprekid;
