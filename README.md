@@ -1,2 +1,2 @@
-# Ray-Tracing-project
+# Ray-Tracing
 Computer Architecture project
