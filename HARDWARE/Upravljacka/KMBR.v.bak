@@ -1,0 +1,25 @@
+module KMBR (
+    input [15:0] signals,
+    output [7:0] address
+);
+
+    assign address = 8'b00000000;
+
+    wire [7:0] addressTemp;
+    assign addressTemp = 8'b00000000;
+    wire val0 = signals[0];
+    wire val9 = signals[1];
+    wire val17 = signals[2];
+    wire val19 = signals[3];
+    wire val38 = signals[4];
+    wire val46 = signals[5];
+
+    assign address = 
+        (val0 ? 8'd0 : 8'b00000000) | 
+        (val9 ? 8'd9 : 8'b00000000) | 
+        (val17 ? 8'd17 : 8'b00000000) | 
+        (val19 ? 8'd19 : 8'b00000000) | 
+        (val38 ? 8'd38 : 8'b00000000) | 
+        (val46 ? 8'd46 : 8'b00000000);
+
+endmodule

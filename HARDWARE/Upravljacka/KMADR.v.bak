@@ -1,0 +1,15 @@
+module KMADR (
+    input imm,
+    input memdir,
+    input regind,
+    input regindpom,
+    output [7:0] address
+);
+
+    assign address = 8'b00000000;
+
+    assign address = imm ? 8'd11 : address;
+    assign address = memdir ? 8'd12 : address;
+    assign address = regind ? 8'd14 : address;
+    assign address = regindpom ? 8'd16 : address;
+endmodule

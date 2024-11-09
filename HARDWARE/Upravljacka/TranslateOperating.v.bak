@@ -1,0 +1,79 @@
+module TranslateOperating (
+    input  [255:0] t,
+    output [63:0] signals
+);
+
+    wire ldMAR;
+    wire incPC;
+    wire rdCPU;
+    wire ldIR0;
+    wire ldIR1;
+    wire mxAA1;
+    wire ldAA;
+    wire ldBB;
+    wire mxBB1;
+    wire mxMAR1;
+    wire mxMAR0;
+    wire mxADDA0;
+    wire mxADDB0;
+    wire mxMAR2;
+    wire mxBB0;
+    wire clPSWI;
+    wire stPSWI;
+    wire wrGPR;
+    wire mxAA0;
+    wire mxMDR0;
+    wire ldMDR;
+    wire wrCPU;
+    wire ALUop0;
+    wire ALUop1;
+    wire ALUop2;
+    wire ALUop3;
+    wire shr;
+    wire shl;
+    wire mxPC1;
+    wire ldPC;
+    wire mxMDR2;
+    wire incSP;
+    wire decSP;
+    wire ldBR;
+
+    // Assignments for operational signals
+    assign ldMAR = T1 | T5 | T12 | T14 | T16 | T40 | T43 | T47 | T50;
+    assign incPC = T1 | T5;
+    assign rdCPU = T2 | T6 | T17 | T44 | T51;
+    assign ldIR0 = T3;
+    assign ldIR1 = T7;
+    assign mxAA1 = T8;
+    assign ldAA = T8 | T22 | T25 | T26 | T27 | T28 | T29 | T30 | T31 | T32 | T33 | T34 | T35;
+    assign ldBB = T8 | T11 | T18;
+    assign mxBB1 = T11;
+    assign mxMAR1 = T12;
+    assign mxMAR0 = T14 | T40 | T43 | T47;
+    assign mxADDA0 = T16;
+    assign mxADDB0 = T16;
+    assign mxMAR2 = T16 | T40 | T43 | T47 | T50;
+    assign mxBB0 = T18;
+    assign clPSWI = T20;
+    assign stPSWI = T21;
+    assign wrGPR = T22;
+    assign mxAA0 = T22;
+    assign mxMDR0 = T23;
+    assign ldMDR = T23 | T40 | T47;
+    assign wrCPU = T24 | T41 | T48;
+    assign ALUop0 = T26 | T28 | T30 | T32 | T34;
+    assign ALUop1 = T27 | T28 | T31 | T32 | T35;
+    assign ALUop2 = T29 | T30 | T31 | T32;
+    assign ALUop3 = T33 | T34 | T35;
+    assign shr = T36;
+    assign shl = T37;
+    assign mxPC1 = T39 | T41;
+    assign ldPC = T39 | T41 | T45 | T52;
+    assign mxMDR2 = T40 | T47;
+    assign incSP = T41 | T48;
+    assign decSP = T42;
+    assign ldBR = T49;
+
+    assign signals = { ldMAR, incPC, rdCPU, ldIR0, ldIR1, mxAA1, ldAA, ldBB, mxBB1, mxMAR1, mxMAR0, mxADDA0, mxADDB0, mxMAR2, mxBB0, clPSWI, stPSWI, wrGPR, mxAA0, mxMDR0, ldMDR, wrCPU, ALUop0, ALUop1, ALUop2, ALUop3, shr, shl, mxPC1, ldPC, mxMDR2, incSP, decSP, ldBR, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0 };
+
+endmodule

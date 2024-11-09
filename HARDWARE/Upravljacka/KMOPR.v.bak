@@ -1,0 +1,68 @@
+module KMOPR (
+    input [31:0] signals,
+    output [7:0] address
+);
+
+    assign address = 8'b00000000;
+
+    wire intd = signals[0];
+
+    wire inte = signals[1];
+
+    wire load = signals[2];
+
+    wire store = signals[3];
+
+    wire add = signals[4];
+
+    wire sub = signals[5];
+
+    wire mul = signals[6];
+
+    wire realmul = signals[7];
+
+    wire realclamp = signals[8];
+
+    wire intreal = signals[9];
+
+    wire inc = signals[10];
+
+    wire dec = signals[11];
+
+    wire and = signals[12];
+
+    wire or = signals[13];
+
+    wire xor = signals[14];
+
+    wire asr = signals[15];
+
+    wire asl = signals[16];
+
+    wire call = signals[17];
+
+    wire ret = signals[18];
+
+    // intd, inte, load, store, add, sub, mul, realmul, realclamp, intreal, inc, dec, and, or, xor, asr, asl, call, ret, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+    assign address = 
+        intd ? 8'd20 :
+        inte ? 8'd21 :
+        load ? 8'd22 :
+        store ? 8'd23 :
+        add ? 8'd25 :
+        sub ? 8'd26 :
+        mul ? 8'd27 :
+        realmul ? 8'd28 :
+        realclamp ? 8'd29 :
+        intreal ? 8'd30 :
+        inc ? 8'd31 :
+        dec ? 8'd32 :
+        and ? 8'd33 :
+        or ? 8'd34 :
+        xor ? 8'd35 :
+        asr ? 8'd36 :
+        asl ? 8'd37 :
+        call ? 8'd40 :
+        ret ? 8'd42 : 8'b00000000;
+endmodule
