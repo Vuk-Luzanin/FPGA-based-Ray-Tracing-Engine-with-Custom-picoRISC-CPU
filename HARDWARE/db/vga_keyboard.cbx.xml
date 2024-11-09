@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_keyboard">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_keyboard|RAM002:inst65|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_27s3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_keyboard|RAM_controler:inst35|ram_test:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_2qr3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
