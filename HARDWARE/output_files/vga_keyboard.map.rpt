@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vga_keyboard
-Thu Sep 26 12:56:53 2024
+Fri Nov 15 11:14:56 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -102,7 +102,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 26 12:56:53 2024      ;
+; Analysis & Synthesis Status        ; Successful - Fri Nov 15 11:14:56 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; vga_keyboard                               ;
 ; Top-level Entity Name              ; vga_keyboard                               ;
@@ -217,76 +217,76 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                ;
-+--------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path           ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                        ; Library ;
-+--------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------+---------+
-; mem/output.mif                             ; yes             ; User Memory Initialization File        ; C:/Users/TEMP/Downloads/DEADBEEF20240925/mem/output.mif                             ;         ;
-; keyboard/UB.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/keyboard/UB.bdf                            ;         ;
-; keyboard/UA.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/keyboard/UA.bdf                            ;         ;
-; keyboard/seven_segment_digit_interface.vhd ; yes             ; User VHDL File                         ; C:/Users/TEMP/Downloads/DEADBEEF20240925/keyboard/seven_segment_digit_interface.vhd ;         ;
-; keyboard/REG1_INC_CL.bdf                   ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/keyboard/REG1_INC_CL.bdf                   ;         ;
-; keyboard/P.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/keyboard/P.bdf                             ;         ;
-; keyboard/Debouncer.bdf                     ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/keyboard/Debouncer.bdf                     ;         ;
-; vga/RegisterX.vhd                          ; yes             ; User VHDL File                         ; C:/Users/TEMP/Downloads/DEADBEEF20240925/vga/RegisterX.vhd                          ;         ;
-; vga/ConstantX.vhd                          ; yes             ; User VHDL File                         ; C:/Users/TEMP/Downloads/DEADBEEF20240925/vga/ConstantX.vhd                          ;         ;
-; vga_keyboard.bdf                           ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/vga_keyboard.bdf                           ;         ;
-; ALU/ADD1.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/ADD1.bdf                               ;         ;
-; ALU/ADD8.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/ADD8.bdf                               ;         ;
-; ALU/ADD32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/ADD32.bdf                              ;         ;
-; ALU/SUB1.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/SUB1.bdf                               ;         ;
-; ALU/SUB8.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/SUB8.bdf                               ;         ;
-; ALU/SUB32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/SUB32.bdf                              ;         ;
-; ALU/ADD2.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/ADD2.bdf                               ;         ;
-; ALU/ADD4.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/ADD4.bdf                               ;         ;
-; ALU/ADD16.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/ADD16.bdf                              ;         ;
-; ALU/SUB2.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/SUB2.bdf                               ;         ;
-; ALU/SUB4.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/SUB4.bdf                               ;         ;
-; ALU/SUB16.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/SUB16.bdf                              ;         ;
-; ALU/MPX2_1.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/MPX2_1.bdf                             ;         ;
-; ALU/MPX2_8.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/MPX2_8.bdf                             ;         ;
-; ALU/MPX2_32.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/MPX2_32.bdf                            ;         ;
-; ALU/Equal32.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/Equal32.bdf                            ;         ;
-; ALU/DC4.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/DC4.bdf                                ;         ;
-; vga/Register32_SHIFT.bdf                   ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/vga/Register32_SHIFT.bdf                   ;         ;
-; GPR.bdf                                    ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/GPR.bdf                                    ;         ;
-; MPX4_32.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/MPX4_32.bdf                                ;         ;
-; CPU.bdf                                    ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/CPU.bdf                                    ;         ;
-; MPX8_32.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/MPX8_32.bdf                                ;         ;
-; ALU/DCE4.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/DCE4.bdf                               ;         ;
-; ALU/DCE3.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/DCE3.bdf                               ;         ;
-; ALU/DCE2.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/DCE2.bdf                               ;         ;
-; ALU/MPX8_1.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/MPX8_1.bdf                             ;         ;
-; ALU/MPX4_1.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/MPX4_1.bdf                             ;         ;
-; GPR32x32.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/GPR32x32.bdf                               ;         ;
-; mem/RAM_controler.bdf                      ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/mem/RAM_controler.bdf                      ;         ;
-; mem/ram_test.vhd                           ; yes             ; User Wizard-Generated File             ; C:/Users/TEMP/Downloads/DEADBEEF20240925/mem/ram_test.vhd                           ;         ;
-; ALU/DC8.v                                  ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/DC8.v                                  ;         ;
-; ALU/MPX4_8.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/MPX4_8.bdf                             ;         ;
-; Upravljacka/TranslateOperating.v           ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Downloads/DEADBEEF20240925/Upravljacka/TranslateOperating.v           ;         ;
-; Upravljacka/TranslateControl.v             ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Downloads/DEADBEEF20240925/Upravljacka/TranslateControl.v             ;         ;
-; Upravljacka/KMADR.v                        ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Downloads/DEADBEEF20240925/Upravljacka/KMADR.v                        ;         ;
-; Upravljacka/KMOPR.v                        ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Downloads/DEADBEEF20240925/Upravljacka/KMOPR.v                        ;         ;
-; Upravljacka/KMBR.v                         ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Downloads/DEADBEEF20240925/Upravljacka/KMBR.v                         ;         ;
-; ALU/ALU32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/ALU32.bdf                              ;         ;
-; mem/RAM002.vhd                             ; yes             ; User Wizard-Generated File             ; C:/Users/TEMP/Downloads/DEADBEEF20240925/mem/RAM002.vhd                             ;         ;
-; ALU/XOR32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/XOR32.bdf                              ;         ;
-; ALU/AND32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/AND32.bdf                              ;         ;
-; ALU/OR32.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Downloads/DEADBEEF20240925/ALU/OR32.bdf                               ;         ;
-; altsyncram.tdf                             ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                       ;         ;
-; stratix_ram_block.inc                      ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc                ;         ;
-; lpm_mux.inc                                ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                          ;         ;
-; lpm_decode.inc                             ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                       ;         ;
-; aglobal131.inc                             ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                       ;         ;
-; a_rdenreg.inc                              ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                        ;         ;
-; altrom.inc                                 ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                           ;         ;
-; altram.inc                                 ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                           ;         ;
-; altdpram.inc                               ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                         ;         ;
-; db/altsyncram_27s3.tdf                     ; yes             ; Auto-Generated Megafunction            ; C:/Users/TEMP/Downloads/DEADBEEF20240925/db/altsyncram_27s3.tdf                     ;         ;
-; mem/cpu_proba.mif                          ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/TEMP/Downloads/DEADBEEF20240925/mem/cpu_proba.mif                          ;         ;
-; db/altsyncram_2qr3.tdf                     ; yes             ; Auto-Generated Megafunction            ; C:/Users/TEMP/Downloads/DEADBEEF20240925/db/altsyncram_2qr3.tdf                     ;         ;
-+--------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                  ;
++--------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path           ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                          ; Library ;
++--------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------------+---------+
+; mem/output.mif                             ; yes             ; User Memory Initialization File        ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/mem/output.mif                             ;         ;
+; keyboard/UB.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/keyboard/UB.bdf                            ;         ;
+; keyboard/UA.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/keyboard/UA.bdf                            ;         ;
+; keyboard/seven_segment_digit_interface.vhd ; yes             ; User VHDL File                         ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/keyboard/seven_segment_digit_interface.vhd ;         ;
+; keyboard/REG1_INC_CL.bdf                   ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/keyboard/REG1_INC_CL.bdf                   ;         ;
+; keyboard/P.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/keyboard/P.bdf                             ;         ;
+; keyboard/Debouncer.bdf                     ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/keyboard/Debouncer.bdf                     ;         ;
+; vga/RegisterX.vhd                          ; yes             ; User VHDL File                         ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/vga/RegisterX.vhd                          ;         ;
+; vga/ConstantX.vhd                          ; yes             ; User VHDL File                         ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/vga/ConstantX.vhd                          ;         ;
+; vga_keyboard.bdf                           ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/vga_keyboard.bdf                           ;         ;
+; ALU/ADD1.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/ADD1.bdf                               ;         ;
+; ALU/ADD8.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/ADD8.bdf                               ;         ;
+; ALU/ADD32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/ADD32.bdf                              ;         ;
+; ALU/SUB1.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/SUB1.bdf                               ;         ;
+; ALU/SUB8.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/SUB8.bdf                               ;         ;
+; ALU/SUB32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/SUB32.bdf                              ;         ;
+; ALU/ADD2.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/ADD2.bdf                               ;         ;
+; ALU/ADD4.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/ADD4.bdf                               ;         ;
+; ALU/ADD16.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/ADD16.bdf                              ;         ;
+; ALU/SUB2.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/SUB2.bdf                               ;         ;
+; ALU/SUB4.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/SUB4.bdf                               ;         ;
+; ALU/SUB16.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/SUB16.bdf                              ;         ;
+; ALU/MPX2_1.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/MPX2_1.bdf                             ;         ;
+; ALU/MPX2_8.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/MPX2_8.bdf                             ;         ;
+; ALU/MPX2_32.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/MPX2_32.bdf                            ;         ;
+; ALU/Equal32.bdf                            ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/Equal32.bdf                            ;         ;
+; ALU/DC4.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/DC4.bdf                                ;         ;
+; vga/Register32_SHIFT.bdf                   ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/vga/Register32_SHIFT.bdf                   ;         ;
+; GPR.bdf                                    ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/GPR.bdf                                    ;         ;
+; MPX4_32.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/MPX4_32.bdf                                ;         ;
+; CPU.bdf                                    ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/CPU.bdf                                    ;         ;
+; MPX8_32.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/MPX8_32.bdf                                ;         ;
+; ALU/DCE4.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/DCE4.bdf                               ;         ;
+; ALU/DCE3.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/DCE3.bdf                               ;         ;
+; ALU/DCE2.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/DCE2.bdf                               ;         ;
+; ALU/MPX8_1.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/MPX8_1.bdf                             ;         ;
+; ALU/MPX4_1.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/MPX4_1.bdf                             ;         ;
+; GPR32x32.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/GPR32x32.bdf                               ;         ;
+; mem/RAM_controler.bdf                      ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/mem/RAM_controler.bdf                      ;         ;
+; mem/ram_test.vhd                           ; yes             ; User Wizard-Generated File             ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/mem/ram_test.vhd                           ;         ;
+; ALU/DC8.v                                  ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/DC8.v                                  ;         ;
+; ALU/MPX4_8.bdf                             ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/MPX4_8.bdf                             ;         ;
+; Upravljacka/TranslateOperating.v           ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/Upravljacka/TranslateOperating.v           ;         ;
+; Upravljacka/TranslateControl.v             ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/Upravljacka/TranslateControl.v             ;         ;
+; Upravljacka/KMADR.v                        ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/Upravljacka/KMADR.v                        ;         ;
+; Upravljacka/KMOPR.v                        ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/Upravljacka/KMOPR.v                        ;         ;
+; Upravljacka/KMBR.v                         ; yes             ; User Verilog HDL File                  ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/Upravljacka/KMBR.v                         ;         ;
+; ALU/ALU32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/ALU32.bdf                              ;         ;
+; mem/RAM002.vhd                             ; yes             ; User Wizard-Generated File             ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/mem/RAM002.vhd                             ;         ;
+; ALU/XOR32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/XOR32.bdf                              ;         ;
+; ALU/AND32.bdf                              ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/AND32.bdf                              ;         ;
+; ALU/OR32.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/ALU/OR32.bdf                               ;         ;
+; altsyncram.tdf                             ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                         ;         ;
+; stratix_ram_block.inc                      ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc                  ;         ;
+; lpm_mux.inc                                ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                            ;         ;
+; lpm_decode.inc                             ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                         ;         ;
+; aglobal131.inc                             ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                         ;         ;
+; a_rdenreg.inc                              ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                          ;         ;
+; altrom.inc                                 ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                             ;         ;
+; altram.inc                                 ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                             ;         ;
+; altdpram.inc                               ; yes             ; Megafunction                           ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                           ;         ;
+; db/altsyncram_27s3.tdf                     ; yes             ; Auto-Generated Megafunction            ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/db/altsyncram_27s3.tdf                     ;         ;
+; mem/cpu_proba.mif                          ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/mem/cpu_proba.mif                          ;         ;
+; db/altsyncram_2qr3.tdf                     ; yes             ; Auto-Generated Megafunction            ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/db/altsyncram_2qr3.tdf                     ;         ;
++--------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------+
@@ -558,14 +558,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+----------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                         ;
-+--------+--------------+---------+--------------+--------------+---------------------------------------------------+-----------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                   ; IP Include File                                           ;
-+--------+--------------+---------+--------------+--------------+---------------------------------------------------+-----------------------------------------------------------+
-; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |vga_keyboard|RAM_controler:inst35|ram_test:inst1 ; C:/Users/TEMP/Downloads/DEADBEEF20240925/mem/ram_test.vhd ;
-; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |vga_keyboard|RAM002:inst65                       ; C:/Users/TEMP/Downloads/DEADBEEF20240925/mem/RAM002.vhd   ;
-+--------+--------------+---------+--------------+--------------+---------------------------------------------------+-----------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                           ;
++--------+--------------+---------+--------------+--------------+---------------------------------------------------+-------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                   ; IP Include File                                             ;
++--------+--------------+---------+--------------+--------------+---------------------------------------------------+-------------------------------------------------------------+
+; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |vga_keyboard|RAM_controler:inst35|ram_test:inst1 ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/mem/ram_test.vhd ;
+; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |vga_keyboard|RAM002:inst65                       ; C:/Users/TEMP/Desktop/Ray-Tracing/HARDWARE/mem/RAM002.vhd   ;
++--------+--------------+---------+--------------+--------------+---------------------------------------------------+-------------------------------------------------------------+
 
 
 +--------------------------------------------------------------+
@@ -1375,7 +1375,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Sep 26 12:56:39 2024
+    Info: Processing started: Fri Nov 15 11:14:45 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga_keyboard -c vga_keyboard
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file alu/mux16_32.vhd
@@ -3162,9 +3162,9 @@ Info (21057): Implemented 3493 device resources after synthesis - the final reso
     Info (21061): Implemented 3409 logic cells
     Info (21064): Implemented 32 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1399 warnings
-    Info: Peak virtual memory: 4704 megabytes
-    Info: Processing ended: Thu Sep 26 12:56:53 2024
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Peak virtual memory: 4700 megabytes
+    Info: Processing ended: Fri Nov 15 11:14:56 2024
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:11
 
 
